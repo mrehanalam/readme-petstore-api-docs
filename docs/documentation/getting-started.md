@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Readme Petstore API Docs
+title: Getting Started with Readme Petstore API Documentation
 excerpt: >-
   This page will help you get started with Readme Petstore API Docs. You'll be
   up and running in a jiffy!
