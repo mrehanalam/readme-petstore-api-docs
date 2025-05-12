@@ -8,26 +8,33 @@ hidden: false
 metadata:
   robots: index
 ---
-<Cards columns={4}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
-    Neque porro quisquam est qui dolorem ipsum quia
-  </Card>
+<Accordion title="My Accordion Title" icon="fa-info-circle">
+  <Cards columns={4}>
+    <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+      Neque porro quisquam est qui dolorem ipsum quia
+    </Card>
 
-  <Card title="Second Card" icon="fa-user">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
+    <Card title="Second Card" icon="fa-user">
+      *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+      /
+    </Card>
 
-  <Card title="Third Card" icon="fa-star">
-    > Ut enim ad minim veniam, quis nostrud ullamco
-  </Card>
+    <Card title="Third Card" icon="fa-star">
+      > Ut enim ad minim veniam, quis nostrud ullamco
+    </Card>
 
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
-</Cards>
+    <Card title="Fourth Card" icon="fa-question">
+      **Excepteur sint occaecat cupidatat non proident**
+    </Card>
+  </Cards>
+</Accordion>
+
+<Accordion title="My Accordion Title" icon="fa-info-circle" />
+
+<Accordion title="My Accordion Title" icon="fa-info-circle">
+  <CalloutBox type="info" title="Pet Fact">
+    Dogs can hear frequencies as high as 65,000 Hz, far higher than humans.
+  </CalloutBox>
+</Accordion>
 
 <Calloutboxmdx />
-
-<CalloutBox type="info" title="Pet Fact">
-  Dogs can hear frequencies as high as 65,000 Hz, far higher than humans.
-</CalloutBox>
