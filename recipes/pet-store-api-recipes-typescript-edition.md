@@ -20,26 +20,32 @@ listAvailableDogs();
 
 ```
 
+```cplusplus C++
+
+```
+
 ```json Response Example
-{"success":true}
+{"success":false}
 ```
 
 # Prerequisites
 
 <!-- node@ -->
+<!-- cplusplus@ -->
 
 Install a request library:
 
 Or with node-fetch (v3+ requires ESM):
 
-
-# API token 
+# API token
 
 <!-- node@ -->
+<!-- cplusplus@ -->
 
 Set up your API token (replace with your actual token)
 
 # Get Available Dogs (with Axios)
 
 <!-- node@ -->
+<!-- cplusplus@ -->
 
