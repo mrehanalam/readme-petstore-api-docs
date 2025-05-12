@@ -29,12 +29,16 @@ metadata:
   </Cards>
 </Accordion>
 
-<Accordion title="My Accordion Title" icon="fa-info-circle" />
+Available MDX COOMP
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
+  CUSTOM MDX COMP
+
   <CalloutBox type="info" title="Pet Fact">
     Dogs can hear frequencies as high as 65,000 Hz, far higher than humans.
   </CalloutBox>
 </Accordion>
+
+REUSEABLE CONTENT
 
 <Calloutboxmdx />
